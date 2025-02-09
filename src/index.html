@@ -102,18 +102,22 @@
       </div>
     </header>
 
-    <hr class="hidden lg:lg-(--third-color ) lg:block" />
-
     <!-- !hero section -->
 
     <section
-      class="flex justify-between items-center gap-[4rem] flex-col px-7 py-[5rem] lg:flex-row lg:px-[5rem]"
+      class="flex justify-between items-center gap-[4rem] flex-col px-7 py-[5rem] lg:flex-row lg:px-[5rem] lg:relative"
     >
-      <div class="flex flex-1 justify-between flex-col gap-[2rem] lg:justify-around lg:justify-items-normal">
-        <h1 class="font-[700] text-[4rem] text-(--primary-color) lg:font-[800] lg:text-[7.1rem]">
+      <div
+        class="flex flex-1 justify-between flex-col gap-[2rem] lg:justify-around lg:justify-items-normal"
+      >
+        <h1
+          class="font-[700] text-[4rem] text-(--primary-color) lg:font-[800] lg:text-[7.1rem]"
+        >
           Teach students worldwide
         </h1>
-        <p class="font-medium text-[1.7rem] text-(--primary-color) lg:font-[400] lg:text-[1.8rem]">
+        <p
+          class="font-medium text-[1.7rem] text-(--primary-color) lg:font-[400] lg:text-[1.8rem]"
+        >
           Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa
           tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis
           ultricies.
@@ -178,18 +182,50 @@
       <div class="flex flex-1">
         <img src="./img/personnes.svg" alt="" />
       </div>
+
+      <div class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0">
+        <img src="./img/deco2.svg" alt="" />
+      </div>
     </section>
 
     <!-- !section time working -->
 
-    <section class="flex flex-col justify-between items-center gap-3  px-7 py-[5rem]">
-      <div class="flex flex-col justify-between gap-[4rem]">
-        <h1 class="font-[700] text-[4rem]">Enjoy your time working</h1>
-        <p class="font-[400] text-[1.6rem]">Etiam condimentum duis molestie malesuada volutpat pellentesque sed. Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis massa tellus imperdiet aenean nulla id.</p>
-        <div class="flex  items-center gap-6">
-          <h1 class="font-[500] text-[1.6rem] text-(--secondary-color)">See how it helped others</h1>
-          <img src="./img/fleche bleu.svg" alt="">
+    <section
+      class="flex flex-col justify-between items-center gap-[5rem] px-7 py-[5rem] lg:flex-row lg:px-[5rem] lg:flex-row-reverse lg:relative"
+    >
+      <div class="flex flex-1 flex-col justify-between gap-[4rem]">
+        <h1 class="font-[700] text-[4rem] lg:font-[800] text-[5.6rem]">
+          Enjoy your time working
+        </h1>
+        <p class="font-[400] text-[1.6rem] font-[400] text-[1.8rem]">
+          Etiam condimentum duis molestie malesuada volutpat pellentesque sed.
+          Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis
+          massa tellus imperdiet aenean nulla id.
+        </p>
+        <div class="flex items-center gap-6">
+          <h1
+            class="font-[500] text-[1.6rem] text-(--secondary-color) font-[500] text-[1.8rem]"
+          >
+            See how it helped others
+          </h1>
+          <img src="./img/fleche bleu.svg" alt="" />
         </div>
+      </div>
+
+      <div class="flex-1 grid grid-cols-3 gap-6 items-center">
+        <div class="transform translate-y-10">
+          <img src="./img/grid-img1.svg" alt="" />
+        </div>
+        <div class="transform -translate-y-10">
+          <img src="./img/grid-img2.svg" alt="" />
+        </div>
+        <div class="transform translate-y-5">
+          <img src="./img/grid-img3.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="hidden lg:block lg:absolute lg:bottom-0 lg:left-5">
+        <img src="./img/deco2.svg" alt="" />
       </div>
     </section>
   </body>
